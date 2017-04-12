@@ -15,15 +15,25 @@ public class SpeakAndSpell {
 
 	public static void main(String[] args) {
 		// 1. Use the speak method to say the word. "e.g. spell mandlebrot"
-
-		// 2. Catch the user's answer in a String
-
-		// 3. If the user spelled the word correctly, speak "correct"
-
-		// 4. Otherwise say "wrong"
-
-		// 5. repeat the process for other words
 		
+   	  speak("please spell dankey" );
+		// 2. Catch the user's answer in a String
+	String name = JOptionPane.showInputDialog("Type here");
+		// 3. If the user spelled the word correctly, speak "correct"
+              if(name.equals("dankey")){
+            	  speak("correct");
+              }
+              else {
+              speak("incorrect");}
+// 4. Otherwise say "wrong"
+     
+		
+              // 5. repeat the process for other words
+              if(name.equals("dankey")){
+            	  speak("correct");
+              }
+              else {
+              speak("seriously,you got that wrong, i will throw into the ocean.");}
 	}
 
 	static void speak(String words) {

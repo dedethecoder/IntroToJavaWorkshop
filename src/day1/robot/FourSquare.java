@@ -18,7 +18,7 @@ public class FourSquare {
 				
 			
 			// 7. Set the pen color to random
-	              hudaifa.setPenColor(random);
+	              hudaifa.setRandomPenColor();;
 			// 1. Call the drawSquare() method
 	           drawSquare();
 			// 8. Turn the robot 90 degrees to the right
