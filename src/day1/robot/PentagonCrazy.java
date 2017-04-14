@@ -26,7 +26,7 @@ public class PentagonCrazy {
 				
 			
 			// 2. Move the robot 200 pixels
-	              hudaifa.move(200);
+	              hudaifa.move(5);
 			// 10. Make the robot move "i" pixels instead of 200 (don’t need new line of code for this, just change previous one)
 	               hudaifa.move(j);
 			// 6. Turn the robot the amount in your angle variable
